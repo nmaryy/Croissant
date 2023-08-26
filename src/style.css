@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(250, 219, 182);
+}
+
+h1,
+p,
+ul {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 40px;
+}
+p,
+ul {
+  font-size: 20px;
+}
+
+img {
+  width: 800px;
+  margin: 80px auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(238, 118, 118, 0.525);
+}
+
+li a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(168, 168, 151);
+}
