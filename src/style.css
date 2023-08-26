@@ -12,6 +12,7 @@ p,
 ul {
   text-align: center;
   margin-top: 40px;
+  list-style: none;
 }
 
 h1 {
@@ -34,4 +35,33 @@ li a {
   margin-top: 10px;
   text-decoration: none;
   color: rgb(168, 168, 151);
+}
+
+@media (max-width: 768px) {
+  h1,
+  p,
+  ul {
+    text-align: center;
+    margin: 40px 60px 0;
+  }
+  img {
+    width: 600px;
+    margin: 80px auto;
+    box-shadow: 3px 3px 5px rgba(238, 118, 118, 0.525);
+  }
+}
+
+@media (max-width: 400px) {
+  h1,
+  p,
+  ul {
+    text-align: center;
+    margin: 40px 60px 0;
+    font-size: 15px;
+  }
+  img {
+    width: 300px;
+    margin: 80px auto;
+    box-shadow: 3px 3px 5px rgba(238, 118, 118, 0.525);
+  }
 }
